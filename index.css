@@ -304,6 +304,24 @@ li {
     font-weight: 300;
     margin: 1rem 0;
 }
+
+.projects-description .cta {
+    width: initial;
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #F6F6F6;
+    background-color: #000;
+    transition: background-color 650ms;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.projects-description .cta:hover {
+    background-color: #F7CE3E;
+}
 /*End Projects*/
 
 /*Contact Styling*/
@@ -491,121 +509,27 @@ input[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .menu-toggler {
-        top: 2rem;
-        right: 2rem;
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #F6F6F6;
     }
 
     .landing-text,
     .about,
     .projects-item {
-        align-items: center;
-        justify-content: center;
         background-color: #DDDBDB;
-        width: 100%;
-        background-color: #DDDBDB;
-    }
-
-    .landing-text h1 {
-        font-size: 8rem;
-    }
-
-    .landing-text h6 {
-        font-size: 1.4rem;
-    }
-
-    .nav-link {
-        font-size: 3.5rem;
-    }
-
-    .about .container {
-        flex-direction: column;
-    }
-
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-
-    .projects-item {
-        flex-direction: column;
-    }
-
-    .project-img {
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-
-    .projects-description {
-        margin: 0;
-        order: 2;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    .up {
-        right: 2rem;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .menu-toggler {
-        top: 2rem;
-        right: 2rem;
+@media screen and (min-width: 800px) {
+    body {
+        background-color: #F6F6F6;
     }
 
     .landing-text,
     .about,
-    .projects-item,
-    .container {
-        align-items: center;
-        justify-content: center;
-        background-color: #DDDBDB;
-        width: 100%;
-    }
-
-    .landing-text h1 {
-        font-size: 8rem;
-    }
-
-    .landing-text h6 {
-        font-size: 1.4rem;
-    }
-
-    .nav-link {
-        font-size: 3.5rem;
-    }
-
-    .about .container {
-        flex-direction: column;
-    }
-
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-
     .projects-item {
-        flex-direction: column;
-    }
-
-    .project-img {
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-
-    .projects-description {
-        margin: 0;
-        order: 2;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    .up {
-        right: 2rem;
+        background-color: #DDDBDB;
     }
 }
 
