@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tuan Nguyen Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>TUAN NGUYEN</h1>
+            <h6>HTML | CSS | JavaScript | jQuery | Full-stack Developer</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="profile-img.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                </div>
+                <p>I am currently enrolled in Thinkful's web developer program. I made the switch from nuclear
+                    engineering after I discovered
+                    West Coast Swing, an improve partner dance, and excelled at it to a pro level only after a year and
+                    a half.<br>Currently, learning about web development
+                    and working on projects has been my new passion along with dance. I'm confident in my abilities to
+                    learn and become proficient
+                    in whatever it is that I'm working on due to my natural curiosity and problem solving skills.
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/tuanmst/" class="icon-link">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/KHG17" class="icon-link">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:tnpm7@mst.edu" class="icon-link">
+                                <i class="fa fa-envelope-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="projects-item">
+                <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <a href="https://khg17.github.io/quizapp/" class="cta"><img src="quizapp-img.png"
+                            alt="Quiz App" /></a>
+                </div>
+                <div class="projects-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>App Development</h6>
+                    <h1>Quiz Application</h1>
+                    <p>Test your knowledge of League of Legends with this quiz application.<br>
+                        <br>
+                        Built using HTML, CSS, JavaScript, and jQuery.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fa fa-chevron-circle-up"></i>
+        </div>
+        <p>&copy; 2020 Tuan Nguyen</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
