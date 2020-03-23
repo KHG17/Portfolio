@@ -19,6 +19,7 @@ body {
 
 section {
     padding: 6rem 0;
+    overflow: hidden;
 }
 
 a {
@@ -544,7 +545,7 @@ input[type="submit"]:hover {
     }
 
     .about-details p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 150;
     }
 
@@ -588,7 +589,7 @@ input[type="submit"]:hover {
     }
 
     .projects-description p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 150;
     }
 
@@ -647,7 +648,7 @@ input[type="submit"]:hover {
     }
 
     .copyright p {
-        font-size: .7rem;
+        font-size: 1rem;
     }
 }
 
