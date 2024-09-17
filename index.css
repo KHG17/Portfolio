@@ -1,4 +1,4 @@
-/*Global Styling*/
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +35,8 @@ p {
 img {
     width: 100%;
 }
-/*End Global*/
 
-/*Reusable Styling*/
+/* Reusable Styling */
 .container {
     width: 90%;
     max-width: 120rem;
@@ -91,9 +90,8 @@ img {
 .has-margin-right {
     margin-right: 5rem;
 }
-/*End Reusable*/
 
-/*Header Styling*/
+/* Header Styling */
 header {
     width: 100%;
     height: 100vh;
@@ -213,10 +211,10 @@ li {
     font-size: 2rem;
     font-weight: 300;
     color: #000000;
+    padding: 2rem;
 }
-/*End Header*/
 
-/*About Styling*/
+/* About Styling */
 .about .container {
     display: flex;
     align-items: center;
@@ -249,6 +247,23 @@ li {
     flex: 1;
 }
 
+.social-media .cta {
+    width: initial;
+    display: inline-block;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #F6F6F6;
+    background-color: #000;
+    transition: background-color 650ms;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.social-media .cta:hover {
+    background-color: #F7CE3E;
+}
+
 .social-media {
     margin-top: 5rem;
 }
@@ -269,9 +284,8 @@ li {
 .fa-envelope-square:hover {
     color: red;
 }
-/*End About*/
 
-/*Projects Styling*/
+/* Projects Styling */
 .projects-item {
     display: flex;
     align-items: center;
@@ -323,9 +337,8 @@ li {
 .projects-description .cta:hover {
     background-color: #F7CE3E;
 }
-/*End Projects*/
 
-/*Contact Styling*/
+/* Contact Styling */
 form {
     width: 70%;
     margin: 0 auto;
@@ -357,9 +370,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #F7CE3E;
 }
-/*End Contact*/
 
-/*Footer Styling*/
+/* Footer Styling */
 .copyright {
     width: 100%;
     text-align: center;
@@ -390,9 +402,8 @@ input[type="submit"]:hover {
 .copyright p {
     font-size: 1.4rem;
 }
-/*End Footer*/
 
-/*Animation Styling*/
+/* Animation Styling */
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 #F7CE3E;
@@ -404,9 +415,8 @@ input[type="submit"]:hover {
         box-shadow: 0 0 0 0 #F7CE3E;
     }
 }
-/*End Animation*/
 
-/*Media Queries*/
+/* Media Queries */
 @media screen and (min-width: 320px) {
     body {
         background-color: #F6F6F6;
@@ -421,6 +431,7 @@ input[type="submit"]:hover {
     .about,
     .projects-item {
         background-color: #DDDBDB;
+        overflow: hidden;
     }
 
     .landing-text h1 {
@@ -501,7 +512,7 @@ input[type="submit"]:hover {
     }
 
     .about-heading h1 {
-        font-size: 5rem;
+        font-size: 2.5rem;
     }
 
     .section-heading h1 {
@@ -533,6 +544,19 @@ input[type="submit"]:hover {
 
     .about-details li {
         margin: 0 1rem;
+    }
+
+    .social-media .cta {
+        width: initial;
+        display: inline-block;
+        font-size: .75rem;
+        text-transform: uppercase;
+        color: #F6F6F6;
+        background-color: #000;
+        transition: background-color 650ms;
+        padding: .5rem 1rem;
+        border-radius: .4rem;
+        cursor: pointer;
     }
 
     .profile-img {
@@ -776,7 +800,7 @@ input[type="submit"]:hover {
     }
     
     .landing-text h1 {
-        font-size: 20rem;
+        font-size: 15rem;
         font-family: 'Montserrat', serif;
         color: #000000;
         padding: 1rem;
@@ -804,7 +828,7 @@ input[type="submit"]:hover {
     }
     
     .about-heading h1 {
-        font-size: 10rem;
+        font-size: 5rem;
     }
     
     .about-heading h6 {
@@ -829,6 +853,19 @@ input[type="submit"]:hover {
     .about-details p {
         font-size: 1.8rem;
         font-weight: 300;
+    }
+
+    .social-media .cta {
+        width: initial;
+        display: inline-block;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        color: #F6F6F6;
+        background-color: #000;
+        transition: background-color 650ms;
+        padding: 1rem 2rem;
+        border-radius: .8rem;
+        cursor: pointer;
     }
 
     .social-media {
